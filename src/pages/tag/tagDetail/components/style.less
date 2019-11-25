@@ -1,0 +1,93 @@
+@import '~antd/es/style/themes/default.less';
+
+.modelImgWarp{
+  width: 450px ;
+  height: 550px;
+  padding: 24px;
+  overflow: hidden;
+  img{
+    width: 100%;
+  }
+}
+.tagLabelText {
+  width: 100%;
+  height: 32px;
+  padding-left: 16px;
+  line-height: 32px;
+  text-align: left;
+  background: #f4f4f4;
+}
+.listStyle{
+  min-height: 150px;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.checkboxItem{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 25px;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0, 0.1));
+}
+.checkbox{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  height: 20px;
+}
+.cardCol{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 88px;
+  height: 110px;
+  margin: 8px;
+  padding: 16px 0;
+  overflow: hidden;
+  text-align: center;
+}
+.imgBox{
+  position: relative;
+  padding: 0;
+  :global {
+    .ant-card-body{
+      padding: 0 !important;
+    }
+  }
+  img{
+    width: 100%;
+  }
+}
+.nodataWarp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+ img{
+   width: 30%;
+ }
+}
+
+// .selectItem {
+//   :global{
+//     .ant-select-selection__rendered{
+//       text-align: center !important;
+//       .ant-select-selection-selected-value{
+//         float: none;
+//       }
+//     }
+//   }
+// }
+.checkboxWarp{
+  :global{
+    .ant-list-empty-text{
+      display: none !important;
+    }
+  }
+}
+

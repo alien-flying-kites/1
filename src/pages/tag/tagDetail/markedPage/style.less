@@ -1,0 +1,71 @@
+@import '~antd/es/style/themes/default.less';
+// @import './utils/utils.less';
+
+.imgBox{
+  position: relative;
+  padding: 0;
+  :global {
+    .ant-card-body{
+      padding: 0 !important;
+    }
+  }
+  img{
+    width: 100%;
+  }
+}
+.ant-card-body{
+  padding: 0;
+}
+.checkbox{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  height: 20px;
+}
+.cardCol{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 150px;
+  margin: 12px;
+  padding: 16px 0;
+  overflow: hidden;
+  text-align: center;
+}
+.tableListOperator {
+  margin-bottom: 16px;
+  button {
+    margin-right: 8px;
+  }
+}
+.checkboxItem{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 25px;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0, 0.1));
+}
+.nodataWarp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+ img{
+   width: 80%;
+ }
+}
+.topbuttonbox{
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 50%;
+  padding-right: 24px;
+  line-height: 50px;
+  text-align: right;
+}
